@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f8f8f8;
+}
+h1 {
+  margin-top: 20px;
+}
+#puzzle-container {
+  width: 320px;
+  height: 400px;
+  margin: 20px auto;
+  position: relative;
+  border: 4px solid #333;
+  background: #fff;
+  touch-action: none;
+}
+.block {
+  position: absolute;
+  border: 2px solid #333;
+  box-sizing: border-box;
+  background-color: #f1c40f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  user-select: none;
+}
+.block.family { background: #3498db; }
